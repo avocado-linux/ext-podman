@@ -2,7 +2,7 @@ supported_targets: '*'
 
 extensions:
   avocado-ext-podman:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Avocado Podman container engine
     description: Avocado Podman container engine
@@ -16,4 +16,4 @@ extensions:
       podman: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
